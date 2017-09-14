@@ -1,0 +1,198 @@
+/* COLORS */
+/* ---------------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Center Vertically and Horizontally */ }
+
+html,
+body {
+  background-color: #ffffff;
+  color: #313131;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden; }
+
+a {
+  color: #0DA7C8;
+  text-decoration: none; }
+
+/* ---------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ---------------------------------------- */
+.row {
+  max-width: 1140px;
+  margin: 0 auto; }
+
+/* ----- HEADINGS ----- */
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  word-spacing: 4px;
+  width: 70%;
+  margin-left: 15%; }
+
+h1 {
+  font-size: 240%; }
+
+h2 {
+  font-size: 180%; }
+
+h3 {
+  font-size: 140%; }
+
+/* ----- PARAGRAPHS ----- */
+.long-copy {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%; }
+
+/* ---------------------------------------- */
+/* HEADER */
+/* ---------------------------------------- */
+header {
+  height: auto; }
+
+.logo {
+  height: 50px;
+  width: auto;
+  margin: 20px; }
+
+/* ----- NAV ----- */
+nav {
+  width: 100%;
+  background-color: #951a1d;
+  text-align: center;
+  border-bottom: 10px solid #ce5053; }
+
+/* ---------------------------------------- */
+/* INFO SECTION */
+/* ---------------------------------------- */
+.section-info {
+  margin-bottom: 20px; }
+
+.section-info h1 {
+  margin-top: 80px; }
+
+.section-info h3 {
+  margin-top: 40px; }
+
+.section-info .long-copy {
+  margin-bottom: 25px; }
+
+.section-info .long-copy:last-child {
+  margin-bottom: 0; }
+
+/* ---------------------------------------- */
+/* MENU SECTION */
+/* ---------------------------------------- */
+.section-menu .row {
+  margin: 25px auto 0; }
+
+.section-menu .row:first-child {
+  margin: 0 auto; }
+
+.section-menu .row-options {
+  width: 70%;
+  margin-left: 15%; }
+
+.section-menu img {
+  width: 30%;
+  height: auto;
+  float: left;
+  margin: 0 30px 5px 0; }
+
+.newsletter-desc {
+  margin-right: 10%; }
+
+.newsletter-desc label {
+  display: block;
+  padding-left: 17px;
+  text-indent: -17px;
+  font-weight: 600;
+  font-size: 120%; }
+
+.newsletter-desc input[type=checkbox] {
+  width: 13px;
+  height: 13px;
+  position: relative;
+  vertical-align: bottom;
+  top: -3px;
+  *overflow: hidden; }
+
+.newsletter-desc .frequency {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #999; }
+
+.newsletter-desc .copy {
+  margin-top: 5px;
+  line-height: 125%; }
+
+/* ---------------------------------------- */
+/* FORM SECTION */
+/* ---------------------------------------- */
+.section-form {
+  margin: 40px 0; }
+
+form {
+  width: 70%;
+  margin: 20px auto 40px; }
+
+form .field {
+  text-align: center;
+  margin: 15px 0; }
+
+input[type=email],
+input[type=submit] {
+  display: inline-block;
+  margin: 0 auto;
+  width: 300px; }
+
+input[type=email] {
+  padding: 10px 15px; }
+
+input[type=submit] {
+  background: #951a1d;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px; }
+
+*:focus {
+  outline: none; }
+
+/* ---------------------------------------- */
+/* FOOTER */
+/* ---------------------------------------- */
+footer {
+  background-color: #313131;
+  padding: 20px 0;
+  color: white;
+  font-size: 80%; }
+
+footer .row {
+  margin: 0 auto; }
+
+footer .row-footer {
+  width: 70%;
+  margin-left: 15%; }
+
+footer img {
+  float: left; }
+
+footer .footer-logo {
+  height: 40px;
+  width: auto;
+  margin: 0 20px 20px 0; }
+
+.footer-copy {
+  line-height: 145%; }
+
+/*# sourceMappingURL=style.css.map */

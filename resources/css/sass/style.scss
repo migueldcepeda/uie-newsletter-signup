@@ -1,0 +1,266 @@
+/* COLORS */
+$uie-red1: #951a1d; //#aa3033;
+$uie-red2: #ce5053;
+$uie-black: #313131;
+$uie-gray: #999;
+$uie-link: #0DA7C8;
+$copy-width: 70%;
+$copy-margin: 15%;
+
+/* ---------------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Center Vertically and Horizontally */
+    // display: flex;
+    // justify-content: center;
+    // align-content: center;
+}
+
+html,
+body {
+    background-color: #ffffff;
+    color: $uie-black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+a {
+    color: $uie-link;
+    text-decoration: none;
+}
+
+/* ---------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ---------------------------------------- */
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+// section {
+//     padding-top: 80px;
+// }
+
+/* ----- HEADINGS ----- */
+h1,
+h2,
+h3 {
+    font-weight: 600;
+    word-spacing: 4px;
+    width: $copy-width;
+    margin-left: $copy-margin;
+}
+
+h1 {
+    font-size: 240%;
+
+}
+h2 {
+    font-size: 180%;
+}
+h3 {
+    font-size: 140%;
+}
+
+/* ----- PARAGRAPHS ----- */
+.long-copy {
+    line-height: 145%;
+    width: $copy-width;
+    margin-left: $copy-margin;
+}
+
+/* ---------------------------------------- */
+/* HEADER */
+/* ---------------------------------------- */
+header {
+    height: auto;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    margin: 20px;
+}
+
+/* ----- NAV ----- */
+nav {
+    width: 100%;
+    background-color: $uie-red1;
+    text-align: center;
+    border-bottom: 10px solid $uie-red2;
+}
+
+/* ---------------------------------------- */
+/* INFO SECTION */
+/* ---------------------------------------- */
+.section-info {
+    // margin-bottom: 60px;
+    margin-bottom: 20px;
+}
+
+.section-info h1 {
+    margin-top: 80px;
+}
+
+.section-info h3 {
+    margin-top: 40px;
+}
+
+.section-info .long-copy {
+    margin-bottom: 25px;
+}
+
+.section-info .long-copy:last-child {
+    margin-bottom: 0;
+}
+
+/* ---------------------------------------- */
+/* MENU SECTION */
+/* ---------------------------------------- */
+.section-menu {
+    // margin: 60px 0;
+}
+
+.section-menu .row {
+    // width: 70%;
+    margin: 25px auto 0;
+}
+
+.section-menu .row:first-child {
+    margin: 0 auto;
+}
+
+.section-menu .row-options {
+    width: $copy-width;
+    margin-left: $copy-margin;
+}
+
+.section-menu img {
+    width: 30%;
+    height: auto;
+    float: left;
+    margin: 0 30px 5px 0;
+}
+
+.newsletter-desc {
+    margin-right: 10%;
+}
+
+.newsletter-desc label {
+    display: block;
+    padding-left: 17px;
+    text-indent: -17px;
+    font-weight: 600;
+    font-size: 120%;
+}
+
+.newsletter-desc input[type=checkbox] {
+    width: 13px;
+    height: 13px;
+    position: relative;
+    vertical-align: bottom;
+    // padding: 0;
+    // margin:0;
+    top: -3px;
+    // margin-right: 4px;
+    *overflow: hidden;
+}
+
+.newsletter-desc .frequency {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: $uie-gray;
+}
+
+.newsletter-desc .copy {
+    margin-top: 5px;
+    line-height: 125%;
+}
+
+/* ---------------------------------------- */
+/* FORM SECTION */
+/* ---------------------------------------- */
+.section-form {
+    margin: 40px 0;
+}
+
+form {
+    width: $copy-width;
+    margin: 20px auto 40px;
+}
+
+form .field {
+    text-align: center;
+    margin: 15px 0;
+}
+
+input[type=email],
+input[type=submit] {
+    display: inline-block;
+    margin: 0 auto;
+    width: 300px;
+}
+
+input[type=email] {
+    padding: 10px 15px;
+    // border: 1px solid #ccc;
+}
+
+input[type=submit] {
+    background: $uie-red1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+
+*:focus { outline: none; }
+
+/* ---------------------------------------- */
+/* FOOTER */
+/* ---------------------------------------- */
+
+footer {
+    //footer always on bottom
+    // position: absolute;
+    // right: 0;
+    // bottom: 0;
+    // left: 0;
+    //
+    background-color: $uie-black;
+    padding: 20px 0;
+    color: white;
+    font-size: 80%;
+}
+
+footer .row {
+    // width: $copy-width;
+    margin: 0 auto;
+}
+
+footer .row-footer {
+    width: $copy-width;
+    margin-left: $copy-margin;
+}
+
+footer img {
+    float: left;
+}
+
+footer .footer-logo {
+    height: 40px;
+    width: auto;
+    margin: 0 20px 20px 0;
+}
+
+.footer-copy {
+    line-height: 145%
+}
