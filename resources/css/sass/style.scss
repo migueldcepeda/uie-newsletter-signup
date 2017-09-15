@@ -4,8 +4,8 @@ $uie-red2: #ce5053; //#aa3033;
 $uie-black: #313131;
 $uie-gray: #999;
 $uie-link: #0DA7C8;
-$copy-width: 70%;
-$copy-margin: 15%;
+$page-width: 980px; //70%;
+// $page-margin: 15%;
 
 /* ---------------------------------------- */
 /* BASIC SETUP */
@@ -41,8 +41,13 @@ a {
 /* REUSABLE COMPONENTS */
 /* ---------------------------------------- */
 .row {
-    max-width: 1140px;
+    // max-width: 1140px;
+    max-width: $page-width;
+    // margin-left: $page-margin;
     margin: 0 auto;
+
+    // margin-top: 0;
+    // margin-bottom: 0;
 }
 
 // section {
@@ -55,8 +60,8 @@ h2,
 h3 {
     font-weight: 600;
     word-spacing: 4px;
-    width: $copy-width;
-    margin-left: $copy-margin;
+    // width: $page-width;
+    // margin-left: $page-margin;
 }
 
 h1 {
@@ -73,8 +78,8 @@ h3 {
 /* ----- PARAGRAPHS ----- */
 .long-copy {
     line-height: 145%;
-    width: $copy-width;
-    margin-left: $copy-margin;
+    // width: $page-width;
+    // margin-left: $page-margin;
 }
 
 /* ---------------------------------------- */
@@ -138,10 +143,10 @@ nav {
     margin: 0 auto;
 }
 
-.section-menu .row-options {
-    width: $copy-width;
-    margin-left: $copy-margin;
-}
+// .section-menu .row-options {
+//     width: $copy-width;
+//     margin-left: $copy-margin;
+// }
 
 .section-menu img {
     width: 30%;
@@ -200,12 +205,14 @@ nav {
     margin: 40px 0;
 }
 
-form {
-    width: $copy-width;
+// form {
+.email-form-wrapper:last-child {
+    // width: $copy-width;
     margin: 20px auto 40px;
 }
 
-form .field {
+// form .field {
+.email-form-wrapper:last-child .field {
     text-align: center;
     margin: 15px 0;
 }
@@ -262,10 +269,10 @@ footer .row {
     margin: 0 auto;
 }
 
-footer .row-footer {
-    width: $copy-width;
-    margin-left: $copy-margin;
-}
+// footer .row-footer {
+//     width: $copy-width;
+//     margin-left: $copy-margin;
+// }
 
 footer img {
     float: left;

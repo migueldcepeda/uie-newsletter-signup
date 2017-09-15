@@ -26,7 +26,7 @@ a {
 /* REUSABLE COMPONENTS */
 /* ---------------------------------------- */
 .row {
-  max-width: 1140px;
+  max-width: 980px;
   margin: 0 auto; }
 
 /* ----- HEADINGS ----- */
@@ -34,9 +34,7 @@ h1,
 h2,
 h3 {
   font-weight: 600;
-  word-spacing: 4px;
-  width: 70%;
-  margin-left: 15%; }
+  word-spacing: 4px; }
 
 h1 {
   font-size: 240%; }
@@ -49,9 +47,7 @@ h3 {
 
 /* ----- PARAGRAPHS ----- */
 .long-copy {
-  line-height: 145%;
-  width: 70%;
-  margin-left: 15%; }
+  line-height: 145%; }
 
 /* ---------------------------------------- */
 /* HEADER */
@@ -98,10 +94,6 @@ nav {
 .section-menu .row:first-child {
   margin: 0 auto; }
 
-.section-menu .row-options {
-  width: 70%;
-  margin-left: 15%; }
-
 .section-menu img {
   width: 30%;
   height: auto;
@@ -142,11 +134,10 @@ nav {
 .email-form-wrapper {
   margin: 40px 0; }
 
-form {
-  width: 70%;
+.email-form-wrapper:last-child {
   margin: 20px auto 40px; }
 
-form .field {
+.email-form-wrapper:last-child .field {
   text-align: center;
   margin: 15px 0; }
 
@@ -187,10 +178,6 @@ footer {
 
 footer .row {
   margin: 0 auto; }
-
-footer .row-footer {
-  width: 70%;
-  margin-left: 15%; }
 
 footer img {
   float: left; }
