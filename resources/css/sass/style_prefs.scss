@@ -106,10 +106,9 @@ nav {
 /* ---------------------------------------- */
 /* INFO SECTION */
 /* ---------------------------------------- */
-.section-info {
-    // margin-bottom: 60px;
-    margin-bottom: 20px;
-}
+// .section-info {
+//     margin-bottom: 20px;
+// }
 
 .section-info h1 {
     margin-top: 80px;
@@ -128,90 +127,17 @@ nav {
 }
 
 /* ---------------------------------------- */
-/* MENU SECTION */
+/* EMAIL FORM */
 /* ---------------------------------------- */
-.section-menu {
-    // margin: 60px 0;
+.section-form {
+    margin: 100px 0;
 }
 
-.section-menu .row {
-    // width: 70%;
-    margin: 25px auto 0;
-}
-
-.section-menu .row:first-child {
-    margin: 0 auto;
-}
-
-// .section-menu .row-options {
-//     width: $copy-width;
-//     margin-left: $copy-margin;
+// form:last-child {
+//     margin: 20px auto 40px;
 // }
 
-.section-menu img {
-    width: 30%;
-    height: auto;
-    float: left;
-    margin: 0 30px 5px 0;
-}
-
-.newsletter-desc {
-    margin-right: 10%;
-}
-
-.newsletter-desc label {
-    display: block;
-    padding-left: 17px;
-    text-indent: -17px;
-    font-weight: 600;
-    font-size: 120%;
-}
-
-.newsletter-desc input[type=checkbox] {
-    width: 13px;
-    height: 13px;
-    position: relative;
-    vertical-align: bottom;
-    // padding: 0;
-    // margin:0;
-    top: -3px;
-    // margin-right: 4px;
-    *overflow: hidden;
-
-    /* Double-sized Checkboxes */
-    // -ms-transform: scale(1.1); /* IE */
-    // -moz-transform: scale(1.1); /* FF */
-    // -webkit-transform: scale(1.1); /* Safari and Chrome */
-    // -o-transform: scale(1.1); /* Opera */
-    // padding: 10px;
-}
-
-.newsletter-desc .frequency {
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    color: $uie-gray;
-}
-
-.newsletter-desc .copy {
-    margin-top: 5px;
-    line-height: 125%;
-}
-
-/*** EMAIL FORM ***/
-
-// .section-form {
-.email-form-wrapper {
-    margin: 40px 0;
-}
-
-// form {
-.email-form-wrapper:last-child {
-    // width: $copy-width;
-    margin: 20px auto 40px;
-}
-
-// form .field {
-.email-form-wrapper:last-child .field {
+form:last-child .field {
     text-align: center;
     margin: 15px 0;
 }
@@ -262,11 +188,11 @@ input[type=submit]:active {
 
 footer {
     //footer always on bottom
-    // position: absolute;
-    // right: 0;
-    // bottom: 0;
-    // left: 0;
-    //
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
     background-color: $uie-black;
     padding: 20px 0;
     color: white;
