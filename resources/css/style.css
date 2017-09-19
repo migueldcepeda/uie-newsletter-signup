@@ -88,6 +88,9 @@ nav {
 /* ---------------------------------------- */
 /* MENU SECTION */
 /* ---------------------------------------- */
+.section-menu {
+  margin-bottom: 60px; }
+
 .section-menu .row {
   margin: 25px auto 0; }
 
@@ -129,12 +132,6 @@ nav {
   line-height: 125%; }
 
 /*** EMAIL FORM ***/
-.email-form-wrapper {
-  margin: 40px 0; }
-
-.email-form-wrapper:last-child {
-  margin: 20px auto 40px; }
-
 .email-form-wrapper:last-child .field {
   text-align: center;
   margin: 15px 0; }
