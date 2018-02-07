@@ -1,6 +1,6 @@
 # Newsletter Signup Page
 
-A UIE newsletter landing page offering a menu of options for prospective as well as current UIE email subscribers to sign up for
+A UIE newsletter landing page offering a menu of options for prospective as well as current UIE email subscribers to sign up
 
 At this moment, a homepage for UIE (a new [uie.com](https://www.uie.com/)) is still in its design phase. Because the page has yet to be developed, this project remains a prototype until it can be fully integrated into the site, matching its patterns and styles and determining where it will live. Thoughts on the latter are included in this document.
 
@@ -41,6 +41,8 @@ until finished
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
+
+## Usage
 
 ## Running the tests
 
